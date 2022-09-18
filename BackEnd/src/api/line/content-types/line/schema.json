@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lines",
+  "info": {
+    "singularName": "line",
+    "pluralName": "lines",
+    "displayName": "Line"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainLine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "message.message"
+    },
+    "Commentaires": {
+      "type": "component",
+      "repeatable": true,
+      "component": "message.message"
+    }
+  }
+}

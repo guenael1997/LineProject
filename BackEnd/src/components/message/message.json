@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_message_messages",
+  "info": {
+    "displayName": "Message",
+    "icon": "bullhorn"
+  },
+  "options": {},
+  "attributes": {
+    "IdUser": {
+      "type": "integer"
+    },
+    "Texte": {
+      "type": "richtext"
+    },
+    "Avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Like": {
+      "type": "integer"
+    }
+  }
+}
