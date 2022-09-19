@@ -14,7 +14,7 @@ Il s'agit d'une messagerie développer avec strapi et Vue JS. Le projet est enco
 1) Téléchargez le projet en entier
 2) Déployez le Back-End Strapi en local depuis le dossier backend
 ```bash
-  npm run developp
+  npm run develop
 ```
 3) Déployez le Front-End en local depui le dossier Font-End
 ```bash
